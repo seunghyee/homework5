@@ -7,7 +7,7 @@ void print_matrix(int **matrix, int rows, int cols) {
         for (int j = 0; j < cols; j++) {
             printf("%d ", matrix[i][j]);//행렬의 각 요소를 출력
         }
-        printf("\n");//각 행 출력한 후 줄 바꿈
+        printf("\n");//각 행 출력한 후 줄을 바꿈
     }
 }
 // 동적 메모리 할당을 통해 행렬 생성
